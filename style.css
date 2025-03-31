@@ -1,0 +1,60 @@
+:root{
+    --cor-de-fundo: #9d82ce; 
+    --roxo-escuro: #4f0a77;
+    --preto: #000;
+    --botao-ativo: #171618;
+    --botao-inativo: #6e6565;
+    --texto-fundo:#000000;
+} 
+
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--texto-fundo);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+
+.botao {
+    font-family: "Chakra Petch", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
+}
+
+.botao:first-child {
+    border-radius: 40px 40px 0 0;
+}
+
+.botoes {
+    display: block;
+}
+.ativo{background-color:var(--cor-de-fundo);
+    border-bottom: 4px solid var(--preto);
+    
+
+}
